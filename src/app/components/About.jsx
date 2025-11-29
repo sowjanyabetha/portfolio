@@ -41,7 +41,7 @@ const About = () => {
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5}}
                 >
-                <div className="flex flex-row justify-start mt-8">
+                <div className="flex flex-row justify-start mt-6">
                     {TAB_DATA.map(({id, title}) => (
                         <button key={id} onClick={() => handleTabChange(id)}>
                             <p className={`mr-3 font-semibold cursor-pointer hover:text-gray-700 ${
@@ -56,7 +56,7 @@ const About = () => {
                         </button>
                     ))}
                 </div>
-                <div className="mt-8">
+                <div className="mt-6">
                     <ul className="list-disc pl-2">
                         {TAB_DATA.find((t) => t.id === tab)?.content.map(
                             (item, index) => (

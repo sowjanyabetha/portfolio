@@ -9,10 +9,10 @@ const Contact = () => {
             className="container mx-auto px-6 md:px-12 lg:px-24 py-24">
             <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-700 mb-4">
                         Let's Connect
                     </h2>
-                    <p className="text-[#adb7be] text-lg mb-6 leading-relaxed">I'm always excited to connect, share ideas, and collaborate on
+                    <p className="text-gray-700 text-lg mb-6 leading-relaxed">I'm always excited to connect, share ideas, and collaborate on
                         innovative projects. Let's work together to create something impactful and inspiring!
                     </p>
                     <div className="flex gap-4">
@@ -50,7 +50,7 @@ const Contact = () => {
                                 placeholder="YourEmail@Email.com"
                                 autoComplete="off"
                                 className="w-full p-3 rounded-lg bg-[#1f1f1f] border border-[#33353f]
-                                text-white placeholder-[#9ca2a9] focus:ring-2 focus:ring-[#00adb5] focus:outline-none transition-all duration-300"
+                                text-white placeholder-[#9ca2a9] focus:ring-2 focus:ring-[#f4caeb] focus:outline-none transition-all duration-300"
                                 />
                         </div>
 
@@ -67,7 +67,7 @@ const Contact = () => {
                                 placeholder="Subject"
                                 autoComplete="off"
                                 className="w-full p-3 rounded-lg bg-[#1f1f1f] border border-[#33353f]
-                                text-white placeholder-[#9ca2a9] focus:ring-2 focus:ring-[#00adb5] focus:outline-none transition-all duration-300"
+                                text-white placeholder-[#9ca2a9] focus:ring-2 focus:ring-[#f4caeb] focus:outline-none transition-all duration-300"
                                 />
                         </div>
 
@@ -82,11 +82,11 @@ const Contact = () => {
                                 required
                                 placeholder="Let's talk about ..."
                                 className="w-full p-3 rounded-lg bg-[#1f1f1f] border border-[#33353f] h-32 resize-none
-                                text-white placeholder-[#9ca2a9] focus:ring-2 focus:ring-[#00adb5] focus:outline-none transition-all duration-300"
+                                text-white placeholder-[#9ca2a9] focus:ring-2 focus:ring-[#f4caeb] focus:outline-none transition-all duration-300"
                                 />
                         </div>
-                        <button type="submit" className="w-full bg-[#00adb5] hover:bg-[#008188]
-                        text-white font-medium py-3 rounded-lg transition-all duration-300 cursor-pointer">
+                        <button type="submit" className="w-full bg-[#f0e7ee] hover:bg-[#f0e7ee]
+                        text-grey-700 font-medium py-3 rounded-lg transition-all duration-300 cursor-pointer">
                             Send Message
                         </button>
                     </form>
