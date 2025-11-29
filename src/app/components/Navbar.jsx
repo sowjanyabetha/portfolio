@@ -19,7 +19,7 @@ const Navbar = () => {
 
             {/* mobile menu button */}
             <div className="ml-auto md:hidden">
-                <button onClick={() => setNavbarOpen(!navbarOpen)} className="fixed top-4 right-4 z-50 flex items-center px-3 py-2 border cursor-pointer border-slate-200 text-slate-200 hover:text-white hover:border-white">
+                <button onClick={() => setNavbarOpen(!navbarOpen)} className="fixed top-4 right-4 z-50 flex items-center px-3 py-2 border cursor-pointer border-gray-700 text-gray-700 hover:text-gray-700 hover:border-gray-700">
                     { navbarOpen ? (
                         <XMarkIcon className="h-5 w-5"/>
                         ) : (
