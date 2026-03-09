@@ -6,31 +6,55 @@ export const navLinks = [
 ];
 
 export const TAB_DATA = [
-    {
-        title: "Skills",
-        id: "skills",
-        content: [
-            "React.js",
-            "Next.js",
-            "Java",
-            "SpringBoot"
-        ],
-    },
-    {
-        title: "Education",
-        id: "education",
-        content: [
-            "Bachelor's Degree in Computer Science"
-        ],
-    },
-    {
-        title: "Certifications",
-        id: "certificates",
-        content: [
-            "IIM Kochi Data Science Certificate"
-        ],
-    }
-
+  {
+    id: "backend",
+    title: "Backend",
+    content: [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "REST APIs",
+      "Node.js"
+    ],
+  },
+  {
+    id: "frontend",
+    title: "Frontend",
+    content: [
+      "React",
+      "Next.js",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+  },
+  {
+    id: "database",
+    title: "Database",
+    content: [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+  },
+  {
+    id: "devops",
+    title: "DevOps/Cloud",
+    content: [
+      "Docker",
+      "CI/CD",
+      "AWS",
+      "Azure"
+    ],
+  },
+  {
+    id: "education",
+    title: "Education",
+    content: [
+      "B.Tech in Computer Science",
+      "Andhra University"
+    ],
+  },
 ];
 
 export const PROJECTS_DATA = [
@@ -38,58 +62,48 @@ export const PROJECTS_DATA = [
     id: 1,
     title: "React Portfolio Website",
     description:
-      "A React portfolio highlighting skills, projects, and experience with a dynamic design.",
-    image: "/1.png",
+      "A responsive portfolio built with Next.js and Tailwind CSS to showcase projects, skills, and professional experience.",
+    // image: "/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "E-Commerce Website",
+    title: "Microservices E-Commerce Platform",
     description:
-      "An online store that allows users to browse, buy, and securely manage products or services.",
-    image: "/2.png",
+      "A scalable e-commerce backend built using Spring Boot microservices with REST APIs for product and order management.",
+    // image: "/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "Admin Dashboard Application",
+    title: "Video Shoot Booking Platform",
     description:
-      "A control panel that provides insights, management tools, and analytics to oversee and optimize a system or application.",
-    image: "/3.png",
+      "A backend platform for booking video shoot services with APIs for scheduling, packages, and user management.",
+    // image: "/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Blog Website",
+    title: "Container Management",
     description:
-      "An online platform for publishing and sharing articles, insights, and stories on various topics.",
-    image: "/4.png",
+      "A system for managing containerized application, enabling deployment monitoring.",
+    // image: "/4.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "Weather Application",
+    title: "Expense Tracker API",
     description:
-      "A weather app that provides real-time forecasts, temperature, and climate details for various locations.",
-    image: "/5.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Social Media Website",
-    description:
-      "A social media platform that enables users to connect, share, and interact through posts, messages, and multimedia content.",
-    image: "/6.png",
+      "A RESTful API built with Spring Boot to manage personal expenses, transactions, and financial tracking.",
+    // image: "/5.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",

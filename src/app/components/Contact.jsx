@@ -1,8 +1,27 @@
-import React from "react";
+"use client"
+
+import React, {useState} from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 const Contact = () => {
+
+    const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    formData.append("access_key", "3a4a4e79-3ce5-4118-806b-e457aa5292be");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+    setResult(data.success ? "Success!" : "Error");
+  };
+
     return (
         <section
             id="contact"
@@ -36,7 +55,7 @@ const Contact = () => {
                 </div>
 
                 <div className="bg-[#1a1a1a] p-8 rounded-xl shadow-lg">
-                    <form className="flex flex-col space-y-6">
+                    <form className="flex flex-col space-y-6" onSubmit={onSubmit}>
                         <div>
                             <label
                                 htmlFor="email"
