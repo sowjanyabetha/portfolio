@@ -16,7 +16,7 @@ export const TAB_DATA = [
       "Microservices",
       "REST APIs",
       "Node.js",
-      "Pythno",
+      "Python",
       "GraphQL"
     ],
   },
