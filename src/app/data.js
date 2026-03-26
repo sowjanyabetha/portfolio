@@ -1,6 +1,7 @@
 export const navLinks = [
     { href: "#top", label: "Home" },
     { href: "#about", label: "About" },
+    { href: "#experience", label: "Experience" },
     { href: "#projects", label: "Projects" },
     { href: "#contact", label: "Contact" },
 ];
@@ -14,7 +15,9 @@ export const TAB_DATA = [
       "Spring Boot",
       "Microservices",
       "REST APIs",
-      "Node.js"
+      "Node.js",
+      "Pythno",
+      "GraphQL"
     ],
   },
   {
@@ -43,7 +46,6 @@ export const TAB_DATA = [
     content: [
       "Docker",
       "CI/CD",
-      "AWS",
       "Azure"
     ],
   },
@@ -78,18 +80,18 @@ export const PROJECTS_DATA = [
     gitUrl: "/",
     previewUrl: "/",
   },
+  // {
+  //   id: 3,
+  //   title: "Video Shoot Booking Platform",
+  //   description:
+  //     "A backend platform for booking video shoot services with APIs for scheduling, packages, and user management.",
+  //   // image: "/3.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
   {
     id: 3,
-    title: "Video Shoot Booking Platform",
-    description:
-      "A backend platform for booking video shoot services with APIs for scheduling, packages, and user management.",
-    // image: "/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 4,
     title: "Container Management",
     description:
       "A system for managing containerized application, enabling deployment monitoring.",
@@ -99,7 +101,7 @@ export const PROJECTS_DATA = [
     previewUrl: "/",
   },
   {
-    id: 5,
+    id: 4,
     title: "Expense Tracker API",
     description:
       "A RESTful API built with Spring Boot to manage personal expenses, transactions, and financial tracking.",

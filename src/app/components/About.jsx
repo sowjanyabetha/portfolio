@@ -31,20 +31,18 @@ const About = () => {
                     <h2 className="text-4xl font-bold text-gray-700 mb-4">About Me</h2>
                     <div className="space-y-4 text-base lg:text-lg text-gray-700 leading-relaxed">
   <p>
-    I’m a Software Engineer with over 7 years of experience building scalable 
-    web applications and backend systems. My primary expertise lies in designing 
-    and developing backend services using Java and Spring Boot.
+    Senior Software Engineer with 7+ years of experience building scalable, high-performance
+    systems in production environments.
   </p>
 
   <p>
-    I have experience building REST APIs, microservices-based systems, and 
-    data-driven applications. Along with backend development, I also work with 
-    modern frontend frameworks like React and Next.js to build end-to-end solutions.
+I design and develop high-performance backend services using Java and Spring Boot, with deep expertise in microservices, API design, and distributed systems. 
+I’ve worked on large-scale platforms handling high-volume data and critical business workflows.
   </p>
 
   <p>
-    I enjoy solving complex engineering problems, improving system performance, 
-    and building reliable systems that scale.
+    I also build modern frontend applications using React and Next.js, enabling complete ownership of product features from backend to UI.
+    I focus on solving complex problems, optimizing systems at scale, and delivering engineering solutions that create tangible value.
   </p>
 </div>  
                 </motion.div>

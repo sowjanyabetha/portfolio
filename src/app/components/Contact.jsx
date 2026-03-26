@@ -64,6 +64,7 @@ const Contact = () => {
                             </label>
                             <input 
                                 id="email"
+                                name="email"
                                 type="email"
                                 required
                                 placeholder="YourEmail@Email.com"
@@ -81,6 +82,7 @@ const Contact = () => {
                             </label>
                             <input 
                                 id="subject"
+                                name="subject"
                                 type="text"
                                 required
                                 placeholder="Subject"
@@ -98,6 +100,7 @@ const Contact = () => {
                             </label>
                             <textarea 
                                 id="message"
+                                name="message"
                                 required
                                 placeholder="Let's talk about ..."
                                 className="w-full p-3 rounded-lg bg-[#1f1f1f] border border-[#33353f] h-32 resize-none

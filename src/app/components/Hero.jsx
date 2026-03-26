@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import profile from "../public/hero.jpg";
 import { TypeAnimation } from "react-type-animation";
+import { Download } from "lucide-react";
 
 const Hero = () => {
     return (
@@ -48,7 +49,8 @@ Experienced in developing microservices, REST APIs, and cloud-ready platforms.
         >
           View Projects
         </a>
-        <a href="/Sowjanya Betha Resume.pdf" download className="px-10 py-3 rounded-full border border-gray-500  text-gray-700 flex items-center gap-2 hover:text-gray-500">
+        <a href="/Sowjanya_Betha_CV.pdf" download className="px-10 py-3 rounded-full border border-gray-500  text-gray-700 flex items-center gap-2 hover:text-gray-500">
+                   <Download size={18} className="transition-transform group-hover:translate-y-1" />
                     My Resume
                 </a>
                 <a href="#contact" className="px-10 py-3 rounded-full border border-gray-500 bg-[#f6f5f6] text-gray-700 flex items-center gap-2 hover:text-gray-500">
